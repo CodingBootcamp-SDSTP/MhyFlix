@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<web-app>
+	<display-name>Servlet Sample</display-name>
+	<description>Sample App</description>
+	<servlet>
+		<servlet-name>MyWebService</servlet-name>
+		<servlet-class>MyWebServiceServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MyWebService</servlet-name>
+		<url-pattern>/WebService</url-pattern>
+	</servlet-mapping>
+</web-app>

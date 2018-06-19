@@ -1,0 +1,2 @@
+01-Jun-2018 03:59:47.778 INFO [Thread-6] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+01-Jun-2018 03:59:47.778 INFO [Thread-6] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
