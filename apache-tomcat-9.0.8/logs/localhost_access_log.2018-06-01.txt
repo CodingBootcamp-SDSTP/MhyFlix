@@ -1,2 +1,0 @@
-0:0:0:0:0:0:0:1 - - [01/Jun/2018:03:18:54 +0000] "GET /servletmemorablequotes/ HTTP/1.1" 200 581
-0:0:0:0:0:0:0:1 - - [01/Jun/2018:03:18:54 +0000] "GET /servletmemorablequotes/lib/css/style.css HTTP/1.1" 304 -
