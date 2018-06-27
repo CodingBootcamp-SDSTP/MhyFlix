@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS `user_account` (
 	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
 	`username` VARCHAR(64) NOT NULL,
 	`password` VARCHAR(64) NOT NULL,
-	`type` INT(11) UNSIGNED NOT NULL,
+	`type` INT(11) UNSIGNED NOT NULL DEFAULT '2',
 	`status` SET('active','inactive') NOT NULL DEFAULT 'active',
 	PRIMARY KEY (`id`),
 	FOREIGN KEY (`type`) REFERENCES `account_type`(`id`)

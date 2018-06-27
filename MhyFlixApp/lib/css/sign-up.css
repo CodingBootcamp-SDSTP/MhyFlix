@@ -40,6 +40,7 @@ body {
 	border: 3px solid rgba(64, 115, 138, 0.47);
 	border-radius: 20px;
 	padding: 20px;
+	color: white;
 }
 
 .login-box h1 {
@@ -59,12 +60,14 @@ body {
 	padding: 10px 20px;
 	background: transparent;
 	border: transparent;
+	color: white;
 }
 .login-box .login-field input:focus {
-box-shadow: 5px 8px 10px -6px black;
-box-sizing: border-box;
-border-style: hidden;
-border-radius: 10px;
+	box-shadow: 5px 8px 10px -6px rgb(220, 97, 128);
+	box-sizing: border-box;
+	border-style: hidden;
+	border-radius: 10px;
+	color: white;
 }
 
 .btn-pad {
